@@ -26,7 +26,7 @@ dependencies {
 tasks {
     compileKotlin {
         kotlinOptions {
-            freeCompilerArgs = listOf("-Xjdk-release=$javaVersion")
+            freeCompilerArgs = listOf("-Xjdk-release=$javaVersion", "-Xskip-prerelease-check")
             jvmTarget = "$javaVersion"
         }
     }
