@@ -1,5 +1,5 @@
 val javaVersion = 17
-val silkVersion = "1.9.1"
+val silkVersion = "1.9.2"
 
 plugins {
     kotlin("jvm") version "1.7.10"
