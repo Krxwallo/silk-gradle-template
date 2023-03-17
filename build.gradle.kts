@@ -1,8 +1,8 @@
 val javaVersion = 17
-val silkVersion = "1.9.5"
+val silkVersion = "1.9.7"
 
 plugins {
-    kotlin("jvm") version "1.8.0"
+    kotlin("jvm") version "1.8.10"
     id("fabric-loom") version "1.1-SNAPSHOT"
 }
 
@@ -14,11 +14,11 @@ repositories {
 }
 
 dependencies {
-    minecraft("com.mojang:minecraft:1.19.3")
-    mappings("net.fabricmc:yarn:1.19.3+build.5")
-    modImplementation("net.fabricmc:fabric-loader:0.14.13")
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.73.2+1.19.3")
-    modImplementation("net.fabricmc:fabric-language-kotlin:1.9.0+kotlin.1.8.0")
+    minecraft("com.mojang:minecraft:1.19.4")
+    mappings("net.fabricmc:yarn:1.19.4+build.1")
+    modImplementation("net.fabricmc:fabric-loader:0.14.17")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.76.0+1.19.4")
+    modImplementation("net.fabricmc:fabric-language-kotlin:1.9.2+kotlin.1.8.10")
 
     modImplementation("net.silkmc:silk-core:$silkVersion")
 }
